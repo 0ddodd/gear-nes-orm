@@ -1,6 +1,6 @@
 import { CatsService } from './cats.service';
 import { Body, Controller, Delete, Get, Param, Post, Put } from '@nestjs/common';
-import { Cat } from '../entities/cat.entity';
+import { Cat } from './entities/cat.entity';
 import { CreateCatDto } from './dto/create-cat-dto';
 
 @Controller('cats')
